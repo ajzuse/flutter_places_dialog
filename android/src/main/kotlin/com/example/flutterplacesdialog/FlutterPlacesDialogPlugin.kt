@@ -11,7 +11,7 @@ import io.flutter.plugin.common.PluginRegistry.Registrar
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.location.places.ui.PlacePicker
 import com.google.android.gms.location.places.ui.PlaceAutocomplete
-import com.google.android.gms.location.places.Place
+import com.google.android.libraries.places.compat.Place
 import com.google.android.gms.common.GoogleApiAvailability
 
 class FlutterPlacesDialogPlugin(val activity: Activity) : MethodCallHandler, io.flutter.plugin.common.PluginRegistry.ActivityResultListener {
